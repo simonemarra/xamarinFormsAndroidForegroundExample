@@ -64,6 +64,7 @@
     <Compile Include="Services\INotification.cs" />
     <Compile Include="Services\NotificationHelper.cs" />
     <Compile Include="Services\DataSource.cs" />
+    <Compile Include="Services\BackgroundForegroundService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />

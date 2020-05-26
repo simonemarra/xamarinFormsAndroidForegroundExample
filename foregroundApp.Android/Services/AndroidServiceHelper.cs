@@ -12,7 +12,8 @@ namespace foregroundApp.Droid.Services
 
         public void StartService()
         {
-            var intent = new Intent(context, typeof(DataSource));
+            //var intent = new Intent(context, typeof(DataSource));
+            var intent = new Intent(context, typeof(BackgroundForegroundService));
 
             if (Android.OS.Build.VERSION.SdkInt >= Android.OS.BuildVersionCodes.O)
             {
